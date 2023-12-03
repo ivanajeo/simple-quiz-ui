@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #f5f6f7;
+    color: #1b1b32;
+    font-family: Helvetica;
+}
+
+div {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto 30px auto;
+}
+
+fieldset {
+    border: none;
+}
+
+footer {
+    background-color: black;
+    color: rgb(231, 231, 231);
+    padding: 5px 0 5px 0;
+}
+
+footer a {
+    color: rgb(231, 231, 231);
+    font-style: italic;
+}
+
+footer p{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: min(4vw, 1.6em);
+    color: #f1be32;
+    
+}
+
+h2 {
+    border-bottom: 4px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+#sortingHat {
+    margin-bottom: 25px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+
+li > a {
+    color: #dfdfe2;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+
+li > a:hover {
+    background-color: #dfdfe2;
+    color: black;
+    cursor: pointer;
+}
+
+main {
+    padding-top: 50px;
+}
+
+/* to adjust area of the nav */
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+}
+
+/* to adjust the inside of the nav area, the ul */
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    /* padding-inline-start: 0; */ /* padding left */ 
+    /* margin-block: 0; */ /* margin top and bottom */
+}
+
+/* dont know why this code is here, nothing changed, 
+but I guess the display is meaningful */
+nav > ul > li {
+    /* margin: 0 0.2rem;
+    padding: 0.2rem; */
+    display: block; 
+    color: black;
+}
+
+.comments {
+    padding: 0px 15px 15px 15px;
+}
+.comments label{
+    display: block;
+    margin: 8px 0 10px 0;
+}
+
+.hat {
+    padding: 0px 15px 30px 15px;
+}
+.info {
+    padding: 10px 5px 0 5px;
+}
+
+.hat label {
+    margin: 10px 0 10px 0;
+}
+
+.hat label:not(.noBlock){
+    display: block;
+}
+
+.hat p {
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+.hat p::before {
+    content: "Question #";
+}
+
+.hat input[type="radio"] {
+    vertical-align: middle;
+}
+
+textarea {
+    width: 100%;
+    min-height: 5rem;
+}
+
+
+.hatOne select {
+    width: 35%;
+}
+
+.hatOne label, .hatOne select {
+    display: inline-block;
+}
+
+.info label, .info input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.info input {
+    width: 50%;
+    min-height: 22px;
+    text-align: left; /* write it even when it is obvious */
+}
+
+.info label {
+    width: 10%;
+    min-width: 55px;
+    text-align: right;
+}
+
+.logo {
+    background-color: black;
+    width: max(100px, 13vw);
+    aspect-ratio: 124/29;
+    /* padding: 0.4rem; */
+}
+
+.submit {
+    display: block;
+    width: 80%;
+    min-width: 300px;
+    margin: 0 auto;
+    height: 50px;
+    border: 3px solid darkgrey;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
