@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     background-color: #f5f6f7;
     color: #1b1b32;
@@ -64,7 +62,6 @@ header {
     top: 0;
 }
 
-
 li > a {
     color: #dfdfe2;
     text-decoration: none;
@@ -119,6 +116,7 @@ nav > ul > li {
 .hat {
     padding: 0px 15px 30px 15px;
 }
+
 .info {
     padding: 10px 5px 0 5px;
 }
@@ -135,6 +133,7 @@ nav > ul > li {
     font-size: 1.2rem;
     margin-bottom: 0px;
 }
+
 .hat p::before {
     content: "Question #";
 }
@@ -147,7 +146,6 @@ textarea {
     width: 100%;
     min-height: 5rem;
 }
-
 
 .hatOne select {
     width: 35%;
@@ -191,4 +189,3 @@ textarea {
     font-size: 1.2rem;
     margin-bottom: 15px;
 }
-
