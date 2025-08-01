@@ -39,7 +39,6 @@ h1 {
     text-align: center;
     font-size: min(4vw, 1.6em);
     color: #f1be32;
-    
 }
 
 h2 {
@@ -75,7 +74,7 @@ li > a:hover {
 }
 
 main {
-    padding-top: 50px;
+    padding-top: 0;
 }
 
 /* to adjust area of the nav */
